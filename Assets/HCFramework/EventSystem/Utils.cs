@@ -11,5 +11,17 @@ namespace HCFramework
         {
             EventManager.Instance.TriggerEvent(HCEvent);
         }
+
+        public static GameObject FindChildGameObject(this Transform parent, string childName, bool checkDisabled)
+        {
+            if (parent.name.Equals(childName)) return parent.gameObject;
+            Transform[] allChildTransforms = parent.GetComponentsInChildren<Transform>(checkDisabled);
+
+            foreach (Transform tr in allChildTransforms)
+            {
+                if (tr.name == childName) return tr.gameObject;
+            }
+            return null;
+        }
     }
 }

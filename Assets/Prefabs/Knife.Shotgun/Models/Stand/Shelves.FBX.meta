@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: aa8b54f2ae79f4b43ad01385b4141a50
+timeCreated: 1537275155
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Group001
+    100002: Group002
+    100004: Group003
+    100006: //RootNode
+    100008: stand001
+    100010: stand004
+    100012: stand005
+    100014: stand006
+    100016: stand007
+    100018: stand008
+    100020: stand009
+    100022: stand010
+    100024: stand011
+    100026: stand013
+    100028: stand014
+    100030: stand016
+    400000: Group001
+    400002: Group002
+    400004: Group003
+    400006: //RootNode
+    400008: stand001
+    400010: stand004
+    400012: stand005
+    400014: stand006
+    400016: stand007
+    400018: stand008
+    400020: stand009
+    400022: stand010
+    400024: stand011
+    400026: stand013
+    400028: stand014
+    400030: stand016
+    2100000: 'Material #30'
+    2300000: stand001
+    2300002: stand004
+    2300004: stand005
+    2300006: stand006
+    2300008: stand007
+    2300010: stand008
+    2300012: stand009
+    2300014: stand010
+    2300016: stand011
+    2300018: stand013
+    2300020: stand014
+    2300022: stand016
+    3300000: stand001
+    3300002: stand004
+    3300004: stand005
+    3300006: stand006
+    3300008: stand007
+    3300010: stand008
+    3300012: stand009
+    3300014: stand010
+    3300016: stand011
+    3300018: stand013
+    3300020: stand014
+    3300022: stand016
+    4300000: stand004
+    4300002: stand005
+    4300004: stand006
+    4300006: stand001
+    4300008: stand014
+    4300010: stand016
+    4300012: stand013
+    4300014: stand008
+    4300016: stand009
+    4300018: stand010
+    4300020: stand011
+    4300022: stand007
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #30'
+    second: {fileID: 2100000, guid: 0e26e30197f4dec4ca66908b76bf8a11, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

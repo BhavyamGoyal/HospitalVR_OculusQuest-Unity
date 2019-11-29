@@ -1,8 +1,19 @@
 ﻿public enum BulletType
 {
     right,
-    green,
-    blue,
-    red,
-    yellow
+    wrong
+}
+public enum ObjectType
+{
+    Gun,
+    Bullet
+}
+
+public enum GunType
+{
+    ShotGun1,
+    ShotGun2,
+    ShotGun3,
+    ShotGun4,
+    none
 }

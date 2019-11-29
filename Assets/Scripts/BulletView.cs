@@ -11,10 +11,9 @@ public class BulletView : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.transform.parent.name.Equals("Cancer"))
-        {
-            Utils.EventAsync(new BulletHitEvent());
-        }
-        Debug.Log("bullet hit" + other.gameObject.transform.parent.name);
+       
+            Utils.EventAsync(new BulletHitEvent(this.gameObject,other.gameObject));
+        
+       // Debug.Log("bullet hit" + other.gameObject.transform.parent.name);
     }
 }

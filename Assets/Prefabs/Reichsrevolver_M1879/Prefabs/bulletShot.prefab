@@ -26,10 +26,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.005
+  m_Radius: 0.01
   m_Height: 0.035
   m_Direction: 2
-  m_Center: {x: 0, y: 0.023, z: 0.01}
+  m_Center: {x: 0, y: 0, z: 0.01}
 --- !u!114 &4448901336405013992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +52,14 @@ PrefabInstance:
     - target: {fileID: 115080, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
       propertyPath: m_Name
       value: bulletShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 115080, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 115080, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_TagString
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 429410, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -135,11 +143,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403086, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0232
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 403086, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0213
+      objectReference: {fileID: 0}
+    - target: {fileID: 403086, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 403086, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 458744, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
       propertyPath: m_LocalRotation.x
@@ -171,7 +187,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458744, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.023
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 458744, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 458744, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 129626, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 184000, guid: da85ce98a277047408cecc6730c45bd7, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da85ce98a277047408cecc6730c45bd7, type: 3}

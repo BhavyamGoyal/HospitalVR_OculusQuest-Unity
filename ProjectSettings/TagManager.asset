@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - Bullet
+  - BuletsSet
+  - BulletSets
+  - BloodPath
+  - ReversePath
+  - gun
   layers:
   - Default
   - TransparentFX
@@ -14,9 +21,9 @@ TagManager:
   - 
   - 
   - Pickable
-  - 
-  - 
-  - 
+  - NoLaser
+  - BloodPath
+  - ReversePath
   - 
   - 
   - 
